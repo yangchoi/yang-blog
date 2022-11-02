@@ -8,7 +8,7 @@ import utilStyles from '../styles/utils.module.css';
 const name = 'Yang Hyojeong';
 export const siteTitle = 'Yang Blog';
 
-export default function Layout({ children, home }) {
+const Layout = ({ children, home }) => {
   return (
     <div className="window">
       <div className="title-bar">
@@ -75,3 +75,5 @@ export default function Layout({ children, home }) {
     </div>
   );
 }
+
+export default Layout
