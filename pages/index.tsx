@@ -1,6 +1,6 @@
-import Head from 'next/head';
-import Layout, { siteTitle } from '../components/layout';
-import utilStyles from '../styles/utils.module.css';
+import Head from 'next/head'
+import Layout, { siteTitle } from '../components/layout'
+import utilStyles from '../styles/utils.module.css'
 
 export default function Home() {
   return (
@@ -9,9 +9,9 @@ export default function Home() {
         <title>{siteTitle}</title>
       </Head>
       <section className="standard-dialog">
-        <p>Test Next.js TestTestTestTest</p>
-        
+        <p>YangChoi: Web Developer who loves to learn something new</p>
+        <p>Usually have been Object-oriented Programming</p>
       </section>
     </Layout>
-  );
+  )
 }
