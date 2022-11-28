@@ -9,29 +9,30 @@ export default function RootLayout({
 }) {
   return (
     <html>
-      <div className="window">
-        <div className="title-bar">
-          <button aria-label="Close" className="close"></button>
-          <h1 className="title">Yang Hyojeong</h1>
-          <button aria-label="Resize" className="resize"></button>
-        </div>
-        <nav>
-          <div className="detail-bar">
-            <ul role="menu-bar">
-              <li role="menu-item">
-                <Link href={'/'}>Home</Link>
-              </li>
-              <li role="menu-item">
-                <Link href={'/about'}>About</Link>
-              </li>
-              <li role="menu-item">
-                <Link href={'/posts'}>Posts</Link>
-              </li>
-            </ul>
+      <head></head>
+      <body>
+        <div className="window scale-down">
+          <div className="title-bar">
+            <button aria-label="Close" className="close"></button>
+            <h1 className="title">{children}</h1>
+            <button aria-label="Resize" disabled className="hidden"></button>
           </div>
-        </nav>
-        <body>{children}</body>
-      </div>
+          <div className="separator"></div>
+
+          <div className="modeless-dialog">
+            <section className="field-row">
+              <label htmlFor="text_find" className="modeless-text">
+                Find: This is route layout
+              </label>
+              <input id="text_find" type="text" placeholder="" />
+            </section>
+            <section className="field-row">
+              <button className="btn">Cancel</button>
+              <button className="btn">Find</button>
+            </section>
+          </div>
+        </div>
+      </body>
     </html>
   )
 }

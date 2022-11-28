@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@next/font": "^13.0.5",
     "@sakun/system.css": "^0.1.9",
     "@types/node": "18.11.9",
     "@types/react": "18.0.24",

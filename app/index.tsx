@@ -1,15 +1,16 @@
 import Link from 'next/link'
 
-const Home = () => {
+export default function HomePage({
+  params,
+  searchParams,
+}: {
+  params: { slug: string }
+  searchParams: { id: string }
+}) {
   return (
-    <div>
-      <h1></h1>
-
-      <Link href={'/'}>
-        <button>go to home page</button>
-      </Link>
-    </div>
+    <>
+      <p>{params.slug}</p>
+      <p>{searchParams.id}</p>
+    </>
   )
 }
-
-export default Home
