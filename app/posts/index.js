@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-const PostPage = () => {
+const PostsPage = () => {
   return (
     <div>
       <h1>Posts</h1>
@@ -12,4 +12,4 @@ const PostPage = () => {
   )
 }
 
-export default PostPage
+export default PostsPage
