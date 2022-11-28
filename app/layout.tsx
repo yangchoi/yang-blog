@@ -33,9 +33,10 @@ export default function RootLayout({
 
           <div className="window-pane">{children}</div>
           <div className="standard-dialog center scale-down">
-            <h1 className="dialog-text">
-              The Macintosh Finder, Version 1.0 (18 Jan 84)
-            </h1>
+            <h1 className="dialog-text">Email: yangchoi.hj@gmail.com</h1>
+            <Link href="https://github.com/yangchoi">
+              <p className="dialog-text">GitHub: https://github.com/yangchoi</p>
+            </Link>
             <p className="dialog-text">&copy; 1984 Apple Computer</p>
           </div>
         </div>

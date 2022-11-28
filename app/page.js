@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 export default function Page() {
   return (
     <div className="alert-box outer-border scale-down">
@@ -6,12 +8,16 @@ export default function Page() {
           <section className="field-row">
             <div className="square"></div>
             <p className="alert-text">
-              This is Home. Inner Context is From page.js
+              <p>I am Yang Hyojeong aka YangChoi.</p>
+              <p>I have worked alomost 2 years as Web Programmer</p>
+              <p>Would you like to know me? </p>
             </p>
           </section>
           <section className="field-row">
             <button className="btn">Cancel</button>
-            <button className="btn">OK</button>
+            <Link href={'/about'}>
+              <button className="btn">OK</button>
+            </Link>
           </section>
         </div>
       </div>
