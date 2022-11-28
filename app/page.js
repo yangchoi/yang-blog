@@ -6,8 +6,7 @@ export default function Page() {
           <section className="field-row">
             <div className="square"></div>
             <p className="alert-text">
-              This is a standard alert box. The text would be placed here. This
-              is where more text appears
+              This is Home. Inner Context is From page.js
             </p>
           </section>
           <section className="field-row">

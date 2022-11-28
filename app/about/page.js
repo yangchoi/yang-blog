@@ -13,7 +13,9 @@ export default function Page() {
         automatically
         provided
       />
-      <h1>Yang Hyojeong | Web Developer</h1>
+      <h2>Yang Hyojeong</h2>
+      <h1>Web Developer Perhaps</h1>
+      <p>This is From about/page.js</p>
     </div>
   )
 }

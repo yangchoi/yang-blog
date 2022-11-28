@@ -1,5 +1,1 @@
-import Link from 'next/link'
-
-const AboutPage = () => {}
-
-export default AboutPage
+export default function AboutPage() {}
