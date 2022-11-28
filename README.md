@@ -1,1 +1,1 @@
-[blog link](www.yangchoi.dev)
+[blog link](https://yangchoi.dev)
