@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import './global.css'
 import '@sakun/system.css'
 
@@ -22,7 +21,7 @@ export default function RootLayout({
           <div className="modeless-dialog">
             <section className="field-row">
               <label htmlFor="text_find" className="modeless-text">
-                Find: This is route layout
+                Find:
               </label>
               <input id="text_find" type="text" placeholder="" />
             </section>
