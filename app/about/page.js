@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import profilePic from '../../public/images/profile.jpg'
 import '../global.css'
 import '@sakun/system.css'
@@ -58,6 +59,19 @@ export default function Page() {
         <h1>Petner</h1>
         <p>2020.09 - 2021.10</p>
       </div>
+      <div className="separator"></div>
+      <div class="introduction-degrees">
+        <h3>Education</h3>
+        <h1>筑紫女学園大学 Language Exchange Programm</h1>
+        <p>2019.09 - 2020.02</p>
+      </div>
+      <hr />
+      <p>
+        More Information HERE 👉👉
+        <Link href="https://docs.google.com/document/d/1kstIvuthLIDqVqEXc_6I2Xg9bInYSsE6ryuBPyJftTQ/edit#heading=h.qmoe6gd4lvf">
+          📩 Resume 📩
+        </Link>
+      </p>
     </div>
   )
 }

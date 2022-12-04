@@ -10,7 +10,7 @@ export default function Page() {
             <p className="alert-text">
               <p>I am Yang Hyojeong aka YangChoi.</p>
               <p>I have worked alomost 2 years as Web Programmer</p>
-              <p>Would you like to know me? </p>
+              <p>Would you like to know me?</p>
             </p>
           </section>
           <section className="field-row">

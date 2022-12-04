@@ -33,10 +33,15 @@ export default function RootLayout({
 
           <div className="window-pane">{children}</div>
           <div className="standard-dialog center scale-down">
-            <h1 className="dialog-text">Email: yangchoi.hj@gmail.com</h1>
-            <Link href="https://github.com/yangchoi">
-              <p className="dialog-text">GitHub: https://github.com/yangchoi</p>
-            </Link>
+            <div className="personal-infomations">
+              <p className="dialog-text">Email: yangchoi.hj@gmail.com</p>
+              <Link href="https://github.com/yangchoi">
+                <p className="dialog-text">GitHub: yangchoi</p>
+              </Link>
+              <Link href="https://www.linkedin.com/in/hyojeong-yang-879325147/">
+                <p className="dialog-text">LinkedIn: Hyojoeng Yang</p>
+              </Link>
+            </div>
             <p className="dialog-text">&copy; 1984 Apple Computer</p>
           </div>
         </div>
