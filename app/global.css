@@ -1,5 +1,7 @@
 body {
-  margin-left: 30%;
+  height: 100%;
+  max-width: 650px;
+  margin: auto;
 }
 
 .header {
