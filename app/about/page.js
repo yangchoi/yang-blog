@@ -29,22 +29,12 @@ export default function Page() {
         <h1>Experiences</h1>
         <ul>
           <li>NestJS with TypeScript</li>
-          <li>TDD with Jest</li>
           <li>Ruby on Rails</li>
         </ul>
         <h1>Learning</h1>
         <ul>
           <li>Svelte</li>
           <li>Next.js</li>
-        </ul>
-        <h1>Interests</h1>
-        <ul>
-          <li>SQL performance about speed, efficiency and structure</li>
-          <li>
-            Data Structure and Algorithm with C++/Python for Code performance
-          </li>
-          <li>Better TDD with Unit Test and E2E Test</li>
-          <li>Better TeamWork with Better Communication</li>
         </ul>
       </div>
       <div className="separator"></div>
