@@ -8,7 +8,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html>
+    <html lang="en">
       <head></head>
       <body>
         <div className="window">
@@ -38,8 +38,8 @@ export default function RootLayout({
               <Link href="https://github.com/yangchoi">
                 <p className="dialog-text">GitHub: yangchoi</p>
               </Link>
-              <Link href="https://www.linkedin.com/in/hyojeong-yang-879325147/">
-                <p className="dialog-text">LinkedIn: Hyojoeng Yang</p>
+              <Link href="https://www.linkedin.com/in/yanghyojeong/">
+                <p className="dialog-text">LinkedIn: Yang Hyojeong</p>
               </Link>
             </div>
             <p className="dialog-text">&copy; 1984 Apple Computer</p>
