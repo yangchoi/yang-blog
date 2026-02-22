@@ -35,10 +35,10 @@ export default function RootLayout({
           <div className="standard-dialog center scale-down">
             <div className="personal-infomations">
               <p className="dialog-text">Email: yangchoi.hj@gmail.com</p>
-              <Link href="https://github.com/yangchoi">
+              <Link href="https://github.com/yangchoi" target="_blank" rel="noopener noreferrer">
                 <p className="dialog-text">GitHub: yangchoi</p>
               </Link>
-              <Link href="https://www.linkedin.com/in/yanghyojeong/">
+              <Link href="https://www.linkedin.com/in/hyojeong-yang-879325147/" target="_blank" rel="noopener noreferrer">
                 <p className="dialog-text">LinkedIn: Yang Hyojeong</p>
               </Link>
             </div>

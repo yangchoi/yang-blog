@@ -21,10 +21,10 @@ export default function Page() {
       <div className="introduction-section">
         <h3>Summary</h3>
         <p>
-          Engineer with 5+ years of experience in data pipelines, batch
-          processing, and cloud infrastructure operations. Led full development
-          lifecycles from concept to production as a sole developer managing
-          backend, data pipelines, and infrastructure.
+          Engineer experienced in data pipelines, batch processing, and
+          cloud infrastructure operations. Led full development lifecycles
+          from concept to production as a sole developer managing backend,
+          data pipelines, and infrastructure.
         </p>
       </div>
 
@@ -103,9 +103,9 @@ export default function Page() {
 
       <hr />
       <p>
-        <Link href="https://github.com/YangChoi">GitHub</Link>
+        <Link href="https://github.com/YangChoi" target="_blank" rel="noopener noreferrer">GitHub</Link>
         {' | '}
-        <Link href="https://www.linkedin.com/in/yanghyojeong/">LinkedIn</Link>
+        <Link href="https://www.linkedin.com/in/hyojeong-yang-879325147/" target="_blank" rel="noopener noreferrer">LinkedIn</Link>
       </p>
     </div>
   )
