@@ -28,10 +28,8 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
-    "layouts/layout.js",
-    "layouts/layout.js",
-    "pages/posts/index.js",
-    "pages/abouts/index.js",
+    "**/*.js",
+    "**/*.jsx",
     ".next/types/**/*.ts"
   ],
   "exclude": [
